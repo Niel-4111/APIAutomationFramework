@@ -70,16 +70,16 @@ public class PayloadManager {
 
     public String fullUpdatePayloadAsString() {
         Booking booking = new Booking();
-        booking.setFirstname("Pramod");
-        booking.setLastname("Dutta");
+        booking.setFirstname("Nilesh");
+        booking.setLastname("Sonawane");
         booking.setTotalprice(112);
         booking.setDepositpaid(true);
 
         Bookingdates bookingdates = new Bookingdates();
-        bookingdates.setCheckin("2024-02-01");
-        bookingdates.setCheckout("2024-02-05");
+        bookingdates.setCheckin("2025-02-01");
+        bookingdates.setCheckout("2025-02-05");
         booking.setBookingdates(bookingdates);
-        booking.setAdditionalneeds("Breakfast");
+        booking.setAdditionalneeds("Lunch");
         return gson.toJson(booking);
 
 
